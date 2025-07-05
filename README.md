@@ -75,10 +75,10 @@ Using a local RAG setup like this:
 
 ---
 
-## 📸 Screenshot
+## 📸 S
 
-> Example: Upload a PDF agenda → Ask "What is this document about?"  
-> ![screenshot](./screenshot.png)
+> Example:  → Ask "Summarize this file and explain complex things in detail!"  
+> ![image](https://github.com/user-attachments/assets/65e16d0c-eb39-4fdc-ab59-fe61c76bc208)
 
 ---
 
