@@ -1,0 +1,9 @@
+flask
+fastapi # for building api
+uvicorn # to run fast api application
+langchain
+faiss-cpu
+pypdf
+ollama #for interfacing with ollama models
+python-multipart
+shared
