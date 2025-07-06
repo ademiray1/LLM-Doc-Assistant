@@ -3,14 +3,28 @@
 
 A lightweight, full-stack RAG (Retrieval-Augmented Generation) app that allows users to upload **PDFs, Word documents, PowerPoints, or TXT files**, then ask **natural language questions** or generate **summaries** — powered entirely by **local LLMs via Ollama**.
 
-## 🌐 Live Preview
+##  Cool Use Cases
+
+-  **Reading long research papers or contracts** — Skip to what matters with fast, intelligent summaries and contextual Q&A.
+-  **Internal company docs, handbooks, or HR policies** — Ask natural questions instead of digging through pages.
+-  **Factory maintenance manuals or SOPs** — Instantly get step-by-step procedures for tools or machines by asking "How do I reset machine X?" or "What's the PM checklist for tool Y?"
+-  **Personal knowledge base** — Upload all your favorite PDFs, notes, or guides and interact with them like ChatGPT.
+-  **Legal, compliance, and audit docs** — Summarize or extract obligations, dates, clauses from long legal paperwork.
+-  **Scientific papers** — Ask "What is the main hypothesis?" or "What methods were used?" and get contextual answers.
+
+## 
+> Example:  → Ask "Summarize this file and explain complex things in detail!"  
+> ![image](https://github.com/user-attachments/assets/65e16d0c-eb39-4fdc-ab59-fe61c76bc208)
+
+
+##  Usage
 
 > Upload a document → Ask a question → Get an intelligent response  
 > Powered by: `Flask` + `FastAPI` + `LangChain` + `Ollama` + `FAISS`
 
 ---
 
-## 🚀 Features
+##  Features
 
 ✅ Upload `.pdf`, `.docx`, `.pptx`, `.txt` files  
 ✅ Ask contextual questions about your documents  
@@ -21,7 +35,7 @@ A lightweight, full-stack RAG (Retrieval-Augmented Generation) app that allows u
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Layer        | Tool                | Purpose                        |
 |--------------|---------------------|--------------------------------|
@@ -34,7 +48,7 @@ A lightweight, full-stack RAG (Retrieval-Augmented Generation) app that allows u
 
 ---
 
-## 💡 Why Local RAG Matters
+##  Why Local RAG Matters
 
 Using a local RAG setup like this:
 
@@ -75,35 +89,19 @@ Using a local RAG setup like this:
 
 ---
 
-## 
-> Example:  → Ask "Summarize this file and explain complex things in detail!"  
-> ![image](https://github.com/user-attachments/assets/65e16d0c-eb39-4fdc-ab59-fe61c76bc208)
+
+##  TODOs / Next Features
+
+- [ ]  Add **multi-file upload** and multi-document context
+- [ ]  Implement **chat-style continuous conversation** (ConversationalRetrievalChain)
+- [ ]  Add user-level **API key access and auth**
+- [ ]  Add **offline PDF agent**: extract structured metadata (dates, amounts, names)
+- [ ]  Add **voice-to-question**: Ask questions via microphone input
+- [ ]  Add **"doc memory mode"**: Let users upload a file and revisit chat later
 
 ---
 
-## 🧠 TODOs / Next Features
-
-- [ ] ✅ Add **multi-file upload** and multi-document context
-- [ ] ✅ Implement **chat-style continuous conversation** (ConversationalRetrievalChain)
-- [ ] ✅ Add user-level **API key access and auth**
-- [ ] 🌟 Add **offline PDF agent**: extract structured metadata (dates, amounts, names)
-- [ ] 🌟 Add **voice-to-question**: Ask questions via microphone input
-- [ ] 💡 Add **"doc memory mode"**: Let users upload a file and revisit chat later
-
----
-
-## 💬 Cool Use Cases
-
-- 📚 **Reading long research papers or contracts** — Skip to what matters with fast, intelligent summaries and contextual Q&A.
-- 🏢 **Internal company docs, handbooks, or HR policies** — Ask natural questions instead of digging through pages.
-- 🛠 **Factory maintenance manuals or SOPs** — Instantly get step-by-step procedures for tools or machines by asking "How do I reset machine X?" or "What's the PM checklist for tool Y?"
-- 🧠 **Personal knowledge base** — Upload all your favorite PDFs, notes, or guides and interact with them like ChatGPT.
-- 🧾 **Legal, compliance, and audit docs** — Summarize or extract obligations, dates, clauses from long legal paperwork.
-- 🧪 **Scientific papers** — Ask "What is the main hypothesis?" or "What methods were used?" and get contextual answers.
-
----
-
-## 🙌 Credits
+##  Credits
 
 - [LangChain](https://www.langchain.com/)
 - [Ollama](https://ollama.com/)
